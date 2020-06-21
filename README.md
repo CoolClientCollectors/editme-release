@@ -1,6 +1,6 @@
 ![kx5qTBT](https://user-images.githubusercontent.com/11377481/85215111-eab1fa00-b341-11ea-8b00-fb2a070d9e58.png)
 
-Debunking the dev/users bs
+Debunking the dev/users bs\
 First of all, the image above is complete lies. The "auth" which is pretty much a joke, stores some keys in an arraylist which are hwids and theyre compared against your HWID then it invokes exitJava if its not in that arraylist. The keys arent used for anything else if you look at the references to the 'KEYS' field its only used in the preInit method for "auth" and theres nothing thats encrypted by the keys themselves.
 #
 ![image](https://user-images.githubusercontent.com/11377481/85233556-4aa5b080-b3d5-11ea-9937-e7ffbebc4e28.png)\
